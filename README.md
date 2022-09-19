@@ -1,6 +1,9 @@
 # Past-projects
 This repository contains some of Javohir Abdurazzakov's past projects that he wrote out during his time in Stuyvesant High School. He mainly used Java (Processing), but could also use Python, R, HTML, and CSS.
 
+# Brick Breaker
+This is a popular game that involves bouncing a ball between bricks and a paddle board that you can control. The goal of the game is to break the bricks in the grid system. You lose if the ball ends up passing by the paddle board. This program uses 3 classes: Ball, Brick, and Paddle.
+
 # BubblePop
 This project runs a game called Bubble Pop. It is a game that allows you to shoot bubbles with one of 3 (or 6) colors. There is a hex grid of bubbles that you need to pop. Three consecutive balls of the same color will pop them all. The purpose of the game is to last as long as possible before the hex grid passes the line at the bottom.
 
