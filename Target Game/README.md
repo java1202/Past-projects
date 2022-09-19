@@ -1,1 +1,2 @@
-.
+# Target Game
+This game has 2 balls. One ball is a ball the user can control. The other ball is a stationary ball. The goal of the game is to bring your ball to the stationary ball using the WASD keys. During the game, the user should be able to change the speed of the player ball with the WASD keys. This doesn't change the position of the ball directly, just the velocities of the ball. If the user ball comes in contact with the target ball, the user ball will turn red. Otherwise, the user ball will be white.
