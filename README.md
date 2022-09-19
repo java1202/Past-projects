@@ -7,5 +7,8 @@ This is a popular game that involves bouncing a ball between bricks and a paddle
 # BubblePop
 This project runs a game called Bubble Pop. It is a game that allows you to shoot bubbles with one of 3 (or 6) colors. There is a hex grid of bubbles that you need to pop. Three consecutive balls of the same color will pop them all. The purpose of the game is to last as long as possible before the hex grid passes the line at the bottom.
 
+# Target Game
+This game has 2 balls. One ball is a ball the user can control. The other ball is a stationary ball. The goal of the game is to bring your ball to the stationary ball using the WASD keys. During the game, the user should be able to change the speed of the player ball with the WASD keys. This doesn't change the position of the ball directly, just the velocities of the ball. If the user ball comes in contact with the target ball, the user ball will turn red. Otherwise, the user ball will be white.
+
 # Wordle
 This porject is recreating the Wordle game that is on the New York Times. Your are allowed 6 attemps at 5 letter words to find the right word of that game. There are green boxes to indicate that it the letter is in the word and in the right box. The yellow box indicates that the letter is in the word but not in the right box. Try your luck and skill!
