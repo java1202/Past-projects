@@ -45,15 +45,7 @@ int DEAD = 4;
 Ball balls[];
 Ball player;
 
-/* ===================
- setup
- 1. Call size (done)
- 2. Call frameRate (done)
- 4. Create the player ball (done)
- 5. Initialize balls.
- 6. Use the default constructor to create a ball
- in each array spot.
- ===================*/
+
  void setup() {
   size(600, 600);
   frameRate(60);
@@ -64,21 +56,7 @@ Ball player;
   player = new Ball(mouseX, mouseY, 0, 0, 20, 255);
 }
 
-/* ===================
- draw
- 1. Set background (done)
- 2. For each non-player ball
-   Display the ball
-   If the ball is not in the STOPPED state
-     If the ball is colliding with the player,
-     call collideState().
-     If the ball is not colliding, use changeState() to 
-     set the ball to MOVING.
-     Call act() 
- 3. Display the player ball (done)
- 4. Set the player ball to be located where the
-    mouse is (done).   
- ===================*/
+
  void draw() {
   background(0);
   for (int j=0; j<balls.length; j++) {
