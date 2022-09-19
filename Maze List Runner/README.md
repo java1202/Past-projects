@@ -1,0 +1,2 @@
+# Maze List Runner
+This program creates a solver for mazes made from a .txt file using #, ?, and $ signs. The hashtag represents a boundary where the solver cannot cross or enter. The ? sign is the start of the maze and the $ is the finish line. The solver checks for a new, empty tile on the right side first. If the right side has been explored or is a boundary, it checks the bottom. Then it is the left side, and finally the top side. This runs until the solver is on the finish line. 
