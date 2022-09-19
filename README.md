@@ -10,6 +10,9 @@ This project runs a game called Bubble Pop. It is a game that allows you to shoo
 # Growth Balls
 The goal of this program is to create a game with a single player controlled ball and many other balls. The non-player balls should move around using the same movement code we've been using. The player ball will follow the mouse. When the player ball collides with another ball, that ball will stop moving and begin to grow in size. Once a growing ball has reached a specific maximum size, it will begin to shrink (not moving). Once a shrinking ball has reached a specific minimum size, it will stop shrinking, and should no longer move, grow or shrink.
 
+# Loop Sorts
+This program tests out different sorting methods like Bubble Sort, Selection Sort, and Insert Sort.
+
 # Target Game
 This game has 2 balls. One ball is a ball the user can control. The other ball is a stationary ball. The goal of the game is to bring your ball to the stationary ball using the WASD keys. During the game, the user should be able to change the speed of the player ball with the WASD keys. This doesn't change the position of the ball directly, just the velocities of the ball. If the user ball comes in contact with the target ball, the user ball will turn red. Otherwise, the user ball will be white.
 
