@@ -1,20 +1,3 @@
-/* ===================
-  This Ball class starts with what we have developed
-  in class. 
-  
-  A state instance variable has been added, the following 
-  are the general rules for the states.
-  
-  MOVING: Ball moves according to the move() method.
-  GROWING: Ball increases in radius.
-  SHRINKING: Ball decreases in radius.
-  STOPPED: Ball does not move or change size (but can change state).
-  DEAD: Ball does not move, change size, or change state.
-  
-  The changeState, collideState and act methods must
-  be completed.
- =================== */
- 
  class Ball {
   int cx;
   int cy;
@@ -93,9 +76,6 @@
     DEAD if their radius has gone below MIN_SIZE
  3. Otherwise, balls should be GROWING until they reach
     MAX_SIZE, at which point they become SHRINKING.
- Remember, this mehtod is only called when a ball has
- collided with the player ball, so collided balls should
- not be MOVING.
  ===================*/
   void collideState() {
     if (state != DEAD) {
