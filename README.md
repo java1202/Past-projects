@@ -13,6 +13,9 @@ The goal of this program is to create a game with a single player controlled bal
 # Loop Sorts
 This program tests out different sorting methods like Bubble Sort, Selection Sort, and Insert Sort.
 
+# Maze List Runner
+This program creates a solver for mazes made from a .txt file using #, ?, and $ signs. The hashtag represents a boundary where the solver cannot cross or enter. The ? sign is the start of the maze and the $ is the finish line. The solver checks for a new, empty tile on the right side first. If the right side has been explored or is a boundary, it checks the bottom. Then it is the left side, and finally the top side. This runs until the solver is on the finish line. 
+
 # Target Game
 This game has 2 balls. One ball is a ball the user can control. The other ball is a stationary ball. The goal of the game is to bring your ball to the stationary ball using the WASD keys. During the game, the user should be able to change the speed of the player ball with the WASD keys. This doesn't change the position of the ball directly, just the velocities of the ball. If the user ball comes in contact with the target ball, the user ball will turn red. Otherwise, the user ball will be white.
 
